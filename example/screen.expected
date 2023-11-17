@@ -1,0 +1,273 @@
+***********************************************************************************
+*                                                                                 *
+*  PPPPPPPPPPPP    L               U           U   M           M         A        *
+*  P           P   L               U           U   MM         MM        A A       *
+*  P           P   L               U           U   M M       M M       A   A      *
+*  P           P   L               U           U   M  M     M  M      A     A     *
+*  P           P   L               U           U   M   M   M   M     A       A    *
+*  PPPPPPPPPPPP    L               U           U   M    M M    M    A         A   *
+*  P               L               U           U   M     M     M   AAAAAAAAAAAAA  *
+*  P               L               U           U   M           M   A           A  *
+*  P               L               U           U   M           M   A           A  *
+*  P               LLLLLLLLLLLLL    UUUUUUUUUUU    M           M   A           A  *
+*                                                                                 *
+*            [Plu]gin-based [M]icrobiome [A]nalysis (formerly MiAMi)              *
+* (C) 2016, 2018 Bioinformatics Research Group, Florida International University  *
+*    Under MIT License From Open Source Initiative (OSI), All Rights Reserved.    *
+*                                                                                 *
+*    Any professionally published work using PluMA should cite the following:     *
+*                        T. Cickovski and G. Narasimhan.                          *
+*                Constructing Lightweight and Flexible Pipelines                  *
+*                 Using Plugin-Based Microbiome Analysis (PluMA)                  *
+*                     Bioinformatics 34(17):2881-2888, 2018                       *
+*                                                                                 *
+***********************************************************************************
+[PluMA] Running Plugin: HitRate
+Index(['dataset', 'cache_size', 'algo', 'traces', 'hit_rate'], dtype='object')
+[12  8  2  0 10]
+1
+Index(['dataset', 'cache_size', 'algo', 'traces', 'hit_rate'], dtype='object')
+[12  8  2  0 10]
+1
+('CloudCache', 0.0005)
+
+max_trace
+      dataset  cache_size        algo                  traces  hit_rate
+0  CloudCache      0.0005  lirsalecar  webserver-2012-11-08-1     22.80
+1  CloudCache      0.0005         top  webserver-2012-11-08-1     20.90
+2  CloudCache      0.0005     cacheus  webserver-2012-11-08-1     20.06
+3  CloudCache      0.0005   arcalecar  webserver-2012-11-08-1     19.86
+('CloudCache', 0.001)
+
+max_trace
+      dataset  cache_size        algo                  traces  hit_rate
+0  CloudCache       0.001  lirsalecar  webserver-2012-11-01-1     34.61
+1  CloudCache       0.001     cacheus  webserver-2012-11-01-1     34.20
+2  CloudCache       0.001         top  webserver-2012-11-01-1     34.10
+3  CloudCache       0.001   arcalecar  webserver-2012-11-01-1     33.41
+('CloudCache', 0.005)
+
+max_trace
+      dataset  cache_size        algo               traces  hit_rate
+0  CloudCache       0.005     cacheus  moodle-2012-11-26-1     26.04
+1  CloudCache       0.005   arcalecar  moodle-2012-11-26-1     25.99
+2  CloudCache       0.005  lirsalecar  moodle-2012-11-26-1     25.08
+3  CloudCache       0.005         top  moodle-2012-11-26-1     24.43
+('CloudCache', 0.01)
+
+max_trace
+      dataset  cache_size        algo               traces  hit_rate
+0  CloudCache        0.01   arcalecar  moodle-2012-11-26-1     29.07
+1  CloudCache        0.01     cacheus  moodle-2012-11-26-1     28.07
+2  CloudCache        0.01  lirsalecar  moodle-2012-11-26-1     26.73
+3  CloudCache        0.01         top  moodle-2012-11-26-1     26.64
+('CloudCache', 0.05)
+
+max_trace
+      dataset  cache_size        algo               traces  hit_rate
+0  CloudCache        0.05   arcalecar  moodle-2012-11-26-1     33.07
+1  CloudCache        0.05  lirsalecar  moodle-2012-11-26-1     31.96
+2  CloudCache        0.05     cacheus  moodle-2012-11-26-1     31.58
+3  CloudCache        0.05         top  moodle-2012-11-26-1     22.01
+('CloudCache', 0.1)
+
+max_trace
+      dataset  cache_size        algo                  traces  hit_rate
+0  CloudCache         0.1  lirsalecar  webserver-2012-11-08-1     56.50
+1  CloudCache         0.1         top  webserver-2012-11-08-1     53.90
+2  CloudCache         0.1   arcalecar  webserver-2012-11-08-1     53.67
+3  CloudCache         0.1     cacheus  webserver-2012-11-08-1     50.33
+('CloudPhysics', 0.0005)
+
+max_trace
+        dataset  cache_size        algo      traces  hit_rate
+0  CloudPhysics      0.0005         top  w09_vscsi1     34.26
+1  CloudPhysics      0.0005     cacheus  w09_vscsi1     33.32
+2  CloudPhysics      0.0005  lirsalecar  w09_vscsi1     28.98
+3  CloudPhysics      0.0005   arcalecar  w09_vscsi1     19.13
+('CloudPhysics', 0.001)
+
+max_trace
+        dataset  cache_size        algo      traces  hit_rate
+0  CloudPhysics       0.001     cacheus  w09_vscsi1     38.92
+1  CloudPhysics       0.001         top  w09_vscsi1     33.70
+2  CloudPhysics       0.001  lirsalecar  w09_vscsi1     32.17
+3  CloudPhysics       0.001   arcalecar  w09_vscsi1     19.70
+('CloudPhysics', 0.005)
+
+max_trace
+        dataset  cache_size        algo      traces  hit_rate
+0  CloudPhysics       0.005     cacheus  w56_vscsi1     52.04
+1  CloudPhysics       0.005         top  w56_vscsi1     52.00
+2  CloudPhysics       0.005  lirsalecar  w56_vscsi1     50.58
+3  CloudPhysics       0.005   arcalecar  w56_vscsi1     49.06
+('CloudPhysics', 0.01)
+
+max_trace
+        dataset  cache_size        algo      traces  hit_rate
+0  CloudPhysics        0.01   arcalecar  w30_vscsi1     22.25
+1  CloudPhysics        0.01         top  w30_vscsi1     20.70
+2  CloudPhysics        0.01     cacheus  w30_vscsi1     16.95
+3  CloudPhysics        0.01  lirsalecar  w30_vscsi1     10.70
+('CloudPhysics', 0.05)
+
+max_trace
+        dataset  cache_size        algo      traces  hit_rate
+0  CloudPhysics        0.05         top  w91_vscsi1     42.32
+1  CloudPhysics        0.05   arcalecar  w91_vscsi1     39.83
+2  CloudPhysics        0.05  lirsalecar  w91_vscsi1     39.37
+3  CloudPhysics        0.05     cacheus  w91_vscsi1     36.90
+('CloudPhysics', 0.1)
+
+max_trace
+        dataset  cache_size        algo      traces  hit_rate
+0  CloudPhysics         0.1   arcalecar  w94_vscsi1      9.61
+1  CloudPhysics         0.1  lirsalecar  w94_vscsi1      6.05
+2  CloudPhysics         0.1     cacheus  w94_vscsi1      3.69
+3  CloudPhysics         0.1         top  w94_vscsi1      2.49
+('CloudVPS', 0.0005)
+
+max_trace
+    dataset  cache_size        algo      traces  hit_rate
+0  CloudVPS      0.0005  lirsalecar  vps26020-1      3.17
+1  CloudVPS      0.0005   arcalecar  vps26020-1      3.10
+2  CloudVPS      0.0005         top  vps26020-1      2.21
+3  CloudVPS      0.0005     cacheus  vps26020-1      2.12
+('CloudVPS', 0.001)
+
+max_trace
+    dataset  cache_size        algo      traces  hit_rate
+0  CloudVPS       0.001  lirsalecar  vps26391-1     12.57
+1  CloudVPS       0.001   arcalecar  vps26391-1     12.22
+2  CloudVPS       0.001         top  vps26391-1     11.86
+3  CloudVPS       0.001     cacheus  vps26391-1     11.33
+('CloudVPS', 0.005)
+
+max_trace
+    dataset  cache_size        algo      traces  hit_rate
+0  CloudVPS       0.005         top  vps26535-1     11.86
+1  CloudVPS       0.005   arcalecar  vps26535-1     11.31
+2  CloudVPS       0.005     cacheus  vps26535-1     10.48
+3  CloudVPS       0.005  lirsalecar  vps26535-1      9.33
+('CloudVPS', 0.01)
+
+max_trace
+    dataset  cache_size        algo      traces  hit_rate
+0  CloudVPS        0.01  lirsalecar  vps26254-1      8.08
+1  CloudVPS        0.01         top  vps26254-1      5.49
+2  CloudVPS        0.01     cacheus  vps26254-1      5.48
+3  CloudVPS        0.01   arcalecar  vps26254-1      3.97
+('CloudVPS', 0.05)
+
+max_trace
+    dataset  cache_size        algo      traces  hit_rate
+0  CloudVPS        0.05   arcalecar  vps26535-1     31.19
+1  CloudVPS        0.05  lirsalecar  vps26535-1     30.83
+2  CloudVPS        0.05         top  vps26535-1     29.68
+3  CloudVPS        0.05     cacheus  vps26535-1     27.08
+('CloudVPS', 0.1)
+
+max_trace
+    dataset  cache_size        algo      traces  hit_rate
+0  CloudVPS         0.1   arcalecar  vps26535-1     38.22
+1  CloudVPS         0.1         top  vps26535-1     35.23
+2  CloudVPS         0.1  lirsalecar  vps26535-1     33.05
+3  CloudVPS         0.1     cacheus  vps26535-1     33.00
+('FIU', 0.0005)
+
+max_trace
+  dataset  cache_size        algo                        traces  hit_rate
+0     FIU      0.0005  lirsalecar  webresearch-030409-033109.25     16.37
+1     FIU      0.0005   arcalecar  webresearch-030409-033109.25     15.95
+2     FIU      0.0005         top  webresearch-030409-033109.25     13.07
+3     FIU      0.0005     cacheus  webresearch-030409-033109.25     11.65
+('FIU', 0.001)
+
+max_trace
+  dataset  cache_size        algo                        traces  hit_rate
+0     FIU       0.001  lirsalecar  webresearch-030409-033109.25     25.44
+1     FIU       0.001   arcalecar  webresearch-030409-033109.25     25.31
+2     FIU       0.001         top  webresearch-030409-033109.25     23.03
+3     FIU       0.001     cacheus  webresearch-030409-033109.25     17.30
+('FIU', 0.005)
+
+max_trace
+  dataset  cache_size        algo                 traces  hit_rate
+0     FIU       0.005         top  ikki-110108-112108.14     24.66
+1     FIU       0.005  lirsalecar  ikki-110108-112108.14     24.34
+2     FIU       0.005   arcalecar  ikki-110108-112108.14     24.11
+3     FIU       0.005     cacheus  ikki-110108-112108.14     23.63
+('FIU', 0.01)
+
+max_trace
+  dataset  cache_size        algo                  traces  hit_rate
+0     FIU        0.01   arcalecar  madmax-110108-112108.2      8.07
+1     FIU        0.01  lirsalecar  madmax-110108-112108.2      8.03
+2     FIU        0.01     cacheus  madmax-110108-112108.2      4.92
+3     FIU        0.01         top  madmax-110108-112108.2      4.73
+('FIU', 0.05)
+
+max_trace
+  dataset  cache_size        algo                   traces  hit_rate
+0     FIU        0.05   arcalecar  madmax-110108-112108.14     25.31
+1     FIU        0.05         top  madmax-110108-112108.14     23.03
+2     FIU        0.05  lirsalecar  madmax-110108-112108.14     19.09
+3     FIU        0.05     cacheus  madmax-110108-112108.14     16.95/lclhome/tcickovs/PluMA/plugins/HitRate/HitRatePlugin.py:58: RuntimeWarning: invalid value encountered in double_scalars
+  elif (top_hit_rate - c_hit_rate) / top_hit_rate > 0.05:
+
+('FIU', 0.1)
+
+max_trace
+  dataset  cache_size        algo                traces  hit_rate
+0     FIU         0.1   arcalecar  ikki-110108-112108.3     44.17
+1     FIU         0.1         top  ikki-110108-112108.3     37.47
+2     FIU         0.1  lirsalecar  ikki-110108-112108.3     37.37
+3     FIU         0.1     cacheus  ikki-110108-112108.3     35.04
+('MSR', 0.0005)
+
+max_trace
+  dataset  cache_size        algo   traces  hit_rate
+0     MSR      0.0005  lirsalecar  rsrch_1      3.86
+1     MSR      0.0005     cacheus  rsrch_1      0.10
+2     MSR      0.0005         top  rsrch_1      0.10
+3     MSR      0.0005   arcalecar  rsrch_1      0.01
+('MSR', 0.001)
+
+max_trace
+  dataset  cache_size        algo   traces  hit_rate
+0     MSR       0.001   arcalecar  rsrch_1      6.80
+1     MSR       0.001  lirsalecar  rsrch_1      6.70
+2     MSR       0.001         top  rsrch_1      0.19
+3     MSR       0.001     cacheus  rsrch_1      0.18
+('MSR', 0.005)
+
+max_trace
+  dataset  cache_size        algo  traces  hit_rate
+0     MSR       0.005  lirsalecar  prxy_0     65.58
+1     MSR       0.005         top  prxy_0     61.73
+2     MSR       0.005     cacheus  prxy_0     59.24
+3     MSR       0.005   arcalecar  prxy_0     58.27
+('MSR', 0.01)
+
+max_trace
+  dataset  cache_size        algo   traces  hit_rate
+0     MSR        0.01  lirsalecar  rsrch_1     10.66
+1     MSR        0.01   arcalecar  rsrch_1     10.31
+2     MSR        0.01         top  rsrch_1      9.87
+3     MSR        0.01     cacheus  rsrch_1      9.38
+('MSR', 0.05)
+
+max_trace
+  dataset  cache_size        algo  traces  hit_rate
+0     MSR        0.05     cacheus  proj_0     41.53
+1     MSR        0.05   arcalecar  proj_0     38.25
+2     MSR        0.05  lirsalecar  proj_0     30.40
+3     MSR        0.05         top  proj_0     29.17
+('MSR', 0.1)
+
+max_trace
+  dataset  cache_size        algo  traces  hit_rate
+0     MSR         0.1         top  proj_4     16.72
+1     MSR         0.1   arcalecar  proj_4     13.22
+2     MSR         0.1     cacheus  proj_4      7.61
+3     MSR         0.1  lirsalecar  proj_4      3.92

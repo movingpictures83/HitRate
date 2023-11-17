@@ -1,0 +1,2 @@
+Prefix plugins/HitRate/example/
+Plugin HitRate inputfile input.csv outputfile none
