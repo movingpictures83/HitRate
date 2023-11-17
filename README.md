@@ -1,0 +1,2 @@
+# HitRate
+Average hit rate
