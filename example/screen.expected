@@ -212,9 +212,7 @@ max_trace
 0     FIU        0.05   arcalecar  madmax-110108-112108.14     25.31
 1     FIU        0.05         top  madmax-110108-112108.14     23.03
 2     FIU        0.05  lirsalecar  madmax-110108-112108.14     19.09
-3     FIU        0.05     cacheus  madmax-110108-112108.14     16.95/lclhome/tcickovs/PluMA/plugins/HitRate/HitRatePlugin.py:58: RuntimeWarning: invalid value encountered in double_scalars
-  elif (top_hit_rate - c_hit_rate) / top_hit_rate > 0.05:
-
+3     FIU        0.05     cacheus  madmax-110108-112108.14     16.95
 ('FIU', 0.1)
 
 max_trace
